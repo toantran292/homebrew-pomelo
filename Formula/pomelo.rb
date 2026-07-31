@@ -1,28 +1,28 @@
 class Pomelo < Formula
   desc "Per-branch dev environments for you and your agents"
   homepage "https://toantran292.github.io/pomelo-docs/"
-  version "0.8.168"
+  version "0.8.169"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/toantran292/pomelo-releases/releases/download/v0.8.168/pom-darwin-arm64.tar.gz"
-      sha256 "c52ee7740a440287c71704df739765e5a4a03a930fdb38688ded18318d6ae787"
+      url "https://github.com/toantran292/pomelo-releases/releases/download/v0.8.169/pom-darwin-arm64.tar.gz"
+      sha256 "639dcc343fcf3431110667f383b83521c95feabdf7b699151287dc0548584c18"
     end
     on_intel do
-      url "https://github.com/toantran292/pomelo-releases/releases/download/v0.8.168/pom-darwin-amd64.tar.gz"
-      sha256 "58b0aa2341fbf057f85f893af985bf2a25a421695bec6c25abebf31d92315efb"
+      url "https://github.com/toantran292/pomelo-releases/releases/download/v0.8.169/pom-darwin-amd64.tar.gz"
+      sha256 "e75f9d883c825a56ee03ec03611793540a8f9e9d6fc4e72005234c6d3570b851"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/toantran292/pomelo-releases/releases/download/v0.8.168/pom-linux-arm64.tar.gz"
-      sha256 "7c7fca032ddeb74a24c8769ad6d53e5c398c8d563bc800917da76b178ab99a67"
+      url "https://github.com/toantran292/pomelo-releases/releases/download/v0.8.169/pom-linux-arm64.tar.gz"
+      sha256 "a8d12cd1a16d04d81f7297ca8d1c6ee7081888072e7c828a8a5611c9b662f841"
     end
     on_intel do
-      url "https://github.com/toantran292/pomelo-releases/releases/download/v0.8.168/pom-linux-amd64.tar.gz"
-      sha256 "a330b5f2416554efa912e95dd0499a4ee751fa0a68860d026529cddb66278527"
+      url "https://github.com/toantran292/pomelo-releases/releases/download/v0.8.169/pom-linux-amd64.tar.gz"
+      sha256 "ef340b83fdfa53dd085e338925ab3425329af6cf0b6512da178c6f1433e5b35d"
     end
   end
 
