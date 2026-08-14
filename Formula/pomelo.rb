@@ -27,7 +27,6 @@ class Pomelo < Formula
   end
 
   depends_on "git"
-  depends_on "tmux"
 
   def install
     bin.install Dir["pom-*"].first => "pom"
